@@ -11,7 +11,7 @@ import org.jsoup.select.Elements;
 
 import com.alibaba.fastjson.JSON;
 
-import bean.M3u8Response;
+import mango.M3u8Response;
 import util.FileUtil;
 import util.WebUtil;
 

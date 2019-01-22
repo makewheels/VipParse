@@ -34,7 +34,6 @@ public class DownloadRunnable implements Runnable {
 			try {
 				System.out.println(Thread.currentThread().getName() + "  " + filename);
 				FileUtils.copyURLToFile(new URL(url), new File(folderPath, filename));
-				System.out.println(System.currentTimeMillis());
 			} catch (IOException e) {
 				e.printStackTrace();
 			}

@@ -24,9 +24,10 @@ public class MergePieces {
 		// 合并
 		FileUtil.mergeFiles(folderPath + File.separator + filename + ".ts", filePiecesList);
 		// 删除所有碎片
-		for (String filepath : filePiecesList) {
-			new File(filepath).delete();
-		}
+//		for (String filepath : filePiecesList) {
+//			new File(filepath).delete();
+//		}
+		System.out.println("done");
 	}
 
 }
